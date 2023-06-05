@@ -1,0 +1,84 @@
+.add-item-input {
+    display: flex;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+
+    .add-item-input-labelContainer {
+        margin: 0 !important;
+    }
+
+    .add-item-input-box {
+        margin: 0 !important;
+        border: none !important;
+        padding: 10px !important;
+    }
+
+    .add-item-button {
+        padding: 5px 16px;
+        border: none;
+        background: transparent;
+        color: #F06514;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.error {
+    border: 1px solid #FF4D4F !important;
+}
+
+.error-message {
+    margin: 0;
+    font-size: 12px;
+    text-align: start;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FF4D4F;
+}
+
+.list-item {
+    color: #000;
+    font-size: 14px;
+    text-align: start;
+
+    .list-item-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .list-item-input {
+            padding: 6px;
+            border: 1px solid #c8c8c8;
+            border-radius: 4px;
+        }
+
+        .list-item-input:focus-visible {
+            outline: none;
+        }
+
+        .list-item-title{
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .list-icons {
+            display: flex;
+            align-items: center;
+            margin-top: 6px;
+
+            div {
+                cursor: pointer;
+            }
+
+            div:last-child {
+                margin-left: 6px;
+            }
+            
+        }
+    }
+}

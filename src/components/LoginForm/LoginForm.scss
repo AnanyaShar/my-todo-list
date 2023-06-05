@@ -1,0 +1,19 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .login-button {
+        padding: 8px;
+        border: none;
+        background: #F06514;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 4px;
+        margin: 12px 0 20px 0;
+        cursor: pointer;
+    }
+}
